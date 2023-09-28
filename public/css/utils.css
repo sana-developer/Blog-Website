@@ -1,0 +1,51 @@
+:root{
+    --main-bg-color: #e69955;
+    --font1: 'Baloo Bahina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.my-2{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+.m-auto{
+    margin: auto;
+}
+.content input,textarea{
+    width: 80%;
+    padding: 7px 0px;
+    text-align: center;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    position: relative;
+    display: flex;
+    margin-top: 18px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: var(--font1);
+}
+.footer {
+    background-color: var(--main-bg-color);
+display: flex;
+color: white;
+height: 50px;
+justify-content: center;
+align-items: center;
+/*
+position: absolute;
+bottom: 0;
+width: 100%;*/
+}

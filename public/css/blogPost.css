@@ -1,0 +1,36 @@
+.post-img {
+    height: 279px;
+    overflow: hidden;
+    margin-top: 34px;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.blog-post-content h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.blog-post-content p {
+    font-size: 18px;
+}
+.author{
+    display: flex;
+justify-content: space-between;
+font-family: var(--font2);
+}
+.social{
+    align-self: center;
+}
+.author-info{
+    margin: 12px 0;
+}
+.author-info div{
+padding: 5px 0;
+}
+.social img{
+    width:40px;
+}
